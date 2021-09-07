@@ -10,6 +10,11 @@ https://www.tutorialspoint.com/what-is-the-difference-between-odbc-and-jdbc
 ### What is Driver?
 A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer's operating system. All pieces of hardware require a driver, from your internal computer components, such as your graphics card, to your external peripherals, like a printer.  
 Link to read in detail regarding driver : https://www.hp.com/us-en/shop/tech-takes/what-are-computer-drivers
+```
+#Loop through all the drivers you have access to
+for driver in pyodbc.drivers():
+     print(driver) 
+```     
 
 ### ODBC Driver for Microsoft SQL Server
 https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
@@ -22,6 +27,7 @@ https://github.com/mkleehammer/pyodbc/wiki/Cursor
 https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
 
 ### Example : Connection with Oracle
+In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that tried to fetch the same.
 ```
 import pyodbc 
 
@@ -54,10 +60,6 @@ for row in emp_data:
     cursor.execute(insert_statement,values)
 cursor.execute("commit")
 
-#Loop through all the drivers we have access to
-# for driver in pyodbc.drivers():
-#     print(driver) 
-
 cursor.execute("SELECT * FROM EMP")  #this will return an object 
 
 #Fetching table data
@@ -69,6 +71,8 @@ for row in cursor:
 # while row in cursor:
 #     print(row) 
 #     row = cursor.fetchone()
+
+#Closing the Conneciton & Cursor
 cursor.close()
 cnxn.close()
 ```
