@@ -16,15 +16,17 @@ for driver in pyodbc.drivers():
      print(driver) 
 ```     
 
-### Microsoft Setup pyodbc : ```https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15```
-### Download ODBC Driver for SQL Server : ```https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15#download-for-windows```
-
-### ODBC Driver for Oracle 
-https://www.devart.com/odbc/oracle/docs/python.htm
+### Microsoft Setup pyodbc
+https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
+### Download ODBC Driver for SQL Server
+https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15#download-for-windows
 
 ### All about Cursors?
 https://github.com/mkleehammer/pyodbc/wiki/Cursor  
 https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
+
+### Steps to performs ODBC connection for Oracle using pyodbc
+https://www.devart.com/odbc/oracle/docs/python.htm
 
 ### Example : Connection with Oracle
 In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that fetch the same.
