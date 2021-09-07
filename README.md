@@ -43,7 +43,7 @@ https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-s
 https://www.devart.com/odbc/oracle/docs/python.htm
 
 ##### Example : Connection with Oracle
-In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that fetch the same.
+In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that fetching the same.
 ```
 import pyodbc 
 
