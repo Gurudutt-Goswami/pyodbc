@@ -4,7 +4,7 @@
 2. Documentation : https://github.com/mkleehammer/pyodbc/wiki
 3. Release Notes : https://github.com/mkleehammer/pyodbc/releases
 
-### ODBC / JDBC 
+### Difference b/w ODBC / JDBC ?
 https://www.tutorialspoint.com/what-is-the-difference-between-odbc-and-jdbc
 
 ### What is Driver?
