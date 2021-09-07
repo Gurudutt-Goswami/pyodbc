@@ -14,5 +14,5 @@ https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyo
 https://www.devart.com/odbc/oracle/docs/python.htm
 
 ### All about Cursors?
-https://github.com/mkleehammer/pyodbc/wiki/Cursor
+https://github.com/mkleehammer/pyodbc/wiki/Cursor  
 https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
