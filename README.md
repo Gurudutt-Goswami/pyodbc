@@ -1,7 +1,7 @@
 # PYODBC (Python Open Database Connectivity)
 
 1. Definition : https://pypi.org/project/pyodbc/ OR https://github.com/mkleehammer/pyodbc
-2. Documentation : https://github.com/mkleehammer/pyodbc/wiki
+2. Documentation : https://github.com/mkleehammer/pyodbc/wiki ( Contain Everything you are looking for )
 3. Release Notes : https://github.com/mkleehammer/pyodbc/releases
 
 ### Difference b/w ODBC / JDBC ?
@@ -16,8 +16,8 @@ for driver in pyodbc.drivers():
      print(driver) 
 ```     
 
-### ODBC Driver for Microsoft SQL Server
-https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
+### Microsoft Setup pyodbc : https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
+### Download ODBC Driver for SQL Server : https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15#download-for-windows
 
 ### ODBC Driver for Oracle 
 https://www.devart.com/odbc/oracle/docs/python.htm
@@ -27,7 +27,7 @@ https://github.com/mkleehammer/pyodbc/wiki/Cursor
 https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
 
 ### Example : Connection with Oracle
-In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that tried to fetch the same.
+In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that fetch the same.
 ```
 import pyodbc 
 
