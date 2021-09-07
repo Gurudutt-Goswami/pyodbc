@@ -1,7 +1,7 @@
 # PYODBC (Python Open Database Connectivity)
 
-1. Definition : https://pypi.org/project/pyodbc/ OR https://github.com/mkleehammer/pyodbc
-2. Documentation : https://github.com/mkleehammer/pyodbc/wiki ( Contain Everything you are looking for )
+1. Definition : https://pypi.org/project/pyodbc/ Or https://github.com/mkleehammer/pyodbc
+2. Documentation : https://github.com/mkleehammer/pyodbc/wiki ( Contains Everything you are looking for )
 3. Release Notes : https://github.com/mkleehammer/pyodbc/releases
 
 ### Difference b/w ODBC / JDBC ?
