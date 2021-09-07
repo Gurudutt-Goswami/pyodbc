@@ -23,17 +23,26 @@ https://github.com/mkleehammer/pyodbc/wiki/Connection
 https://github.com/mkleehammer/pyodbc/wiki/Cursor  
 https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
 
+### Common Error : Connection is busy with results for another hstmt 
+This is caused by you have a opening result set open against the same connection. 
+For example, you execute a SqlCommand to select all rows from a table, while the result set is not drained, you try to execute another SqlCommand using the same connection, you will hit this error message.
+
+To solve this, you have two choices:
+a. Make sure you read the rest data from the pending result set before you send the next SqlCommand.
+b. Use MARS (Multiple Active ResultSet) connection setting to enable multiple active result set in a connection.
+
+All about MARS : https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/enabling-multiple-active-result-sets
 
 ### Microsoft Setup pyodbc
 https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
-### Download ODBC Driver for SQL Server
+##### Download ODBC Driver for SQL Server
 https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15#download-for-windows
 
 
 ### Steps to performs ODBC connection for Oracle using pyodbc
 https://www.devart.com/odbc/oracle/docs/python.htm
 
-### Example : Connection with Oracle
+##### Example : Connection with Oracle
 In the following exmaple I am establishing a connection with Oracle database & then inserting sample data into it & after that fetch the same.
 ```
 import pyodbc 
