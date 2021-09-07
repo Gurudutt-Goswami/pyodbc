@@ -16,14 +16,19 @@ for driver in pyodbc.drivers():
      print(driver) 
 ```     
 
+### Connection
+https://github.com/mkleehammer/pyodbc/wiki/Connection
+
+### All about Cursors?
+https://github.com/mkleehammer/pyodbc/wiki/Cursor  
+https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
+
+
 ### Microsoft Setup pyodbc
 https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/python-sql-driver-pyodbc?view=sql-server-ver15
 ### Download ODBC Driver for SQL Server
 https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15#download-for-windows
 
-### All about Cursors?
-https://github.com/mkleehammer/pyodbc/wiki/Cursor  
-https://code.google.com/archive/p/pyodbc/wikis/Cursor.wiki
 
 ### Steps to performs ODBC connection for Oracle using pyodbc
 https://www.devart.com/odbc/oracle/docs/python.htm
@@ -74,7 +79,7 @@ for row in cursor:
 #     print(row) 
 #     row = cursor.fetchone()
 
-#Closing the Conneciton & Cursor
+#Closing the Connection & Cursor
 cursor.close()
 cnxn.close()
 ```
