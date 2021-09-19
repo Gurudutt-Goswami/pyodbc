@@ -7,6 +7,9 @@
 ### Difference b/w ODBC / JDBC ?
 https://www.tutorialspoint.com/what-is-the-difference-between-odbc-and-jdbc
 
+### Python Modules for Different DB's
+![Python DB Modules](https://user-images.githubusercontent.com/86184439/133933792-a185407e-13fd-4cf1-a04f-9f6116720e04.PNG)
+
 ### What is Driver?
 A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer's operating system. All pieces of hardware require a driver, from your internal computer components, such as your graphics card, to your external peripherals, like a printer.  
 Link to read in detail regarding driver : https://www.hp.com/us-en/shop/tech-takes/what-are-computer-drivers
